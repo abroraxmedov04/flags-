@@ -104,11 +104,11 @@ function renderList(data, node) {
   });
 }
 
-getData();
-
 list.addEventListener("click", (e) => {
   console.log(e);
   if (e.target.matches(".card-flag")) {
     console.log("Hi");
   }
 });
+
+getData();
